@@ -1,0 +1,63 @@
+
+ body {
+        font-family: "Sono", sans-serif;
+      }
+      .sweet-main {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .sweet-price {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .sweet-image{
+        width: 200px;
+        height: 200px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+      }
+      .sweet-features {
+        
+        list-style: none;/*to remove the point dots*/
+        padding: 0;
+        margin: 0;
+      }
+     .sweet-features li {
+        margin-bottom: 20px;
+        }
+     .main{
+     display: flex;
+        
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     height: 100vh;
+     gap: 2rem;
+        }
+     .points-plan{
+     background-color: rgba(255, 238, 0, 0.76);
+    flex:1; /*every block wiil be equal*/
+    max-width: 400px;
+     padding: 20px;
+     border-radius: 5px;
+     text-align: center;
+        }
+    .plan-button {
+        
+        background-color: rgb(167, 71, 7);
+        color: aliceblue;
+        border-radius: 5px;
+        border: none;
+        
+        font-size: 1em;
+        font-weight: bold;
+        padding: 10px;
+      }
+       @media (max-width: 1250px) {
+        .main {
+          flex-direction: column;
+          height: 100%;
+        }
+      }
